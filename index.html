@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post"  name="meu-formulario"><!--Tag utilizada para fazer formulários-->
+        <h2><label for="nome"> Nome: </label><!--Label é o rótulo do formulário-->
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required><!--cria um "quadro preenchível"--></h2>
+        
+        <label action="" >Data de nascimento:</label>
+        <input type="date" placeholder="Digite a sua data de nascimento" required>
+        <br>
+        
+        <label for="">E-mail:</label>
+        <input type="email" placeholder="Digite seu e-mail" required>
+
+        <h2><label for="">Curso:</label><!--Com "raido, criará um formulário selecionável, com bolinhas"--></h2>
+            
+            <input type="radio" name="Curso" id="TINF">TINF <br>
+            <input type="radio" name="Curso" id="TELE">TELE <br>
+            <input type="radio" name="Curso" id="TCON">TCON <br>
+            <input type="radio" name="Curso" id="TADM">TADM <br>
+        
+        <H2><label for="">Hobies:</label></H2>
+        <input type="checkbox" >Leitura
+        <input type="checkbox" >Jogos online
+        <input type="checkbox" >Esports
+        <input type="checkbox" >Cinema
+        <input type="checkbox" >Outros
+
+        <br>
+
+        <h2><label for=""> Matéria favorita:</label></h2>
+        <select name="" id="">
+            <option value=""> Ed física</option>
+            <option value=""> Lab 2</option>
+            <option value=""> Matemática</option>
+            <option value=""> Português</option>
+            <option value=""> Filosofia</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="reset"> Resetar</button>
+        <button> Enviar dados</button>
+
+    </form>
+</body>
+</html>
