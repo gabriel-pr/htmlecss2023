@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        div{
+            border: 2px black solid;
+        }
+        
+        span{
+            font: arial;
+        }
+
+        #link-principal{
+            border: 2px blue solid;
+            font: arial;
+        }
+        .menu{
+            border: 2px pink solid;
+        }
+
+        body{
+            border: 3px green solid;
+        }
+
+    </style>
+</head>
+<body>
+    <!--No head, usa cerquiljha para modificar id, e ponto para modificar class-->
+    <!--Dando borda paro o body-->
+    <h1>AULA 2604 DIV E SPAN</h1>
+   
+    <div>
+        Teste da tag div, servam para agrupar conteúdo
+    </div>
+
+    <span>
+        Testando span, ao inspecionar pode-se ver que o div utiliza o bloco inteiro, já o span somente a parte usada.
+    </span>
+
+    <p></p>
+
+    <div><!--Como o div está setado com borda, por padrão html as barras serão huntadas. Exemplo:-->
+
+        <div>
+
+        </div>
+
+    </div>
+    
+    <p></p>
+    
+    <div><!--Caso tenha apenas um conteúdo em uma das divs, a outra ainda será condensada-->
+        Exemplo
+        <div>
+
+        </div>
+    </div>
+    
+    <p></p>
+
+    <div><!--E caso simplesmente coloque dentro, fará assim:-->
+        Menu
+        <div>
+            Menu
+        </div>
+        Menu
+    </div>
+
+    <div id="link-principal"> <!--Aqui foi criada uma div "declarada", ou seja, diferente da outra div-->
+        Exemplo div id.
+    </div>
+    
+    <div class="menu"><!--Usando o class, mias de um elemto pode ter o mesmo "id"-->
+        Exemplo div class.
+    </div>
+
+    <div class="menu">
+        Exemplo div class 2
+    </div>
+    <p>
+        <a href="pagina2.html">Pagina 2</a>
+    </p>
+    
+</body>
+</html>
