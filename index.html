@@ -1,0 +1,77 @@
+<!DOCTYPE html><!--Tipo do documento-->
+<html lang="en"><!--"leng" define a linguagem do elemento-->
+<head><!--cabeçalho-->
+    <meta charset="UTF-8"><!--meta dados-->
+    <title>AULA 11/04/23</title><!--título do site-->
+    <style>
+        table, tr, th, td{
+            border: 1px solid blue;
+        }
+    </style>
+    <!--Não se preocupar com a tag "style", por enquanto, pois é CSS-->
+</head>
+<body>
+    <h1>AULA 11/04/23</h1><!--Título-->
+    <H2>TEMA:Explorando tags</H2><!--Subtítulo-->
+    
+    <p>Explrorando melhor a tag "a".</p>
+    <p>É possível inserir um link em um arquivo, como no exmemplo a seguir:</p>
+   
+    <p><a href="https://www.homehost.com.br/blog/criar-sites/tabela-html/"><!--Âncora de hipertexto(link)-->
+        <img src="wp4325544.jpg" alt="imagem html" width="200px;"><!--Imagem inserida na tag "a" para funcionar como "clicável"-->
+    </a></p>
+
+    <h4>Explorando as tags de listas:</h4>
+    <p>A lista ordenada:(OL)
+    A lista não ordenada:(UL)
+    E a tag que adiciona um elemento na lista(LI)</p>
+
+    <h4>Veja os exemplos a seguir enquanto inspecionado o código fonte do site:</h4>
+
+    <p><li>Exemplo de um elemento de lista</li>
+    <a href="#"><li>Exemplo de um elemento de lista com a tag "a"</li></a></p><!--Transformando um elemento de lista em um link, "#" é usado com o endereço do 
+    próprio index-->
+
+    <ol><!--Lista ordenada, tudo dentro será ordenado de forma crescente-->
+        <p><li>Exemplo de um elemento em lista ordenada.</li>
+        <li>Como se vê,</li>
+        <li>ele enumera de forma ordenada elementos inseridos em si</li></p>
+    </ol>
+        <ul>
+            <p><li>Exemplo de um elemento em lista não ordenada</li>
+            <li>Exemplo 2</li></p>
+        </ul>
+    <ol>
+        <p><ul><li>Exemplo de um elemento não ordenado em lista ordenada</ul></li>
+        <ul><li>Exemplo 2</li></ul></p>
+    </ol>
+    
+    <h4>Exploradno as tags de tabela:</h4>
+
+    <p>Table - inicia uma área de tabela
+        tr - abri um epaçamento de linha
+        td - abri um espaçamento de data/dados
+        th - abri um espaçamento de cabeçalho/header</p>
+
+    <h4>Veja o exemplo a seguir:</h4>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>e-mail</th>
+            <th>Foi preso</th>
+        </tr>
+        <tr>
+            <td><a href="#">Tem</a></td>
+            <td>gemeiou@cleberpontocom</td>
+            <td>Claro</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>gabriel.alves.reis.pr@gmail.com</td>
+            <td>Não</td>
+        </tr>
+    </table>
+
+</body><!--corpo do programa-->
+</html>
