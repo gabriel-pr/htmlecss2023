@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "calibri";
+    src: url(calibri.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;800&display=swap');
+body{
+    margin: auto;
+    font-family: "calibri";
+}
+}
+h1{
+    color: white;
+}
+div{
+    border: 2px rgb(0, 128, 255) solid;
+}
+h2{
+    color: darkblue ; 
+}
+p{
+    color: darkblue;
+}
