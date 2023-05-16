@@ -1,0 +1,50 @@
+:root{
+    --cor-fundo: #95B1AE;
+    --cor-principal: #334B49;
+    --cor-secundaria: #23CDC4;
+    --cor-complementar: #5A83CC;
+}
+body{
+    background-color: var(--cor-fundo);
+}
+header{
+    background-color: var(--cor-principal);
+    text-align: center;
+    height: 200px;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.titulo-header{
+    padding: 70px;
+    font-size: 40px;  
+}
+.conteudo-filme{
+    background-color: rgb(27, 176, 176);
+    border: 4px black solid; 
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+}
+.conteudo{
+    margin: 10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    border:bla
+}
+footer p{
+    background-color: rgb(27, 176, 176);
+    padding: 30px;
+    display: inline-block;
+}
+.esquerda{
+    padding-right: 4px;
+}
+.direita{
+    padding-left: 4px;
+}
