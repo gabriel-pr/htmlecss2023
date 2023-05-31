@@ -1,0 +1,113 @@
+:root{
+    --primary-color: #000000;
+    --amarelo: #F5D442;
+    --azul-mario: #1563FF;
+    --vermelho: #FF0000;
+    --verde: #00FF00;
+    --laranja: #FF9900;
+    --marrom: #8B4513;
+    --azul-sonic:#0033FF;
+    --prata:#C0C0C0;
+}
+body{
+    background-color: var(--primary-color);
+    padding: 50px 140px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--amarelo);
+    background-color: var(--primary-color);
+}
+li {
+    list-style-type: none;
+    font-size: 30px;
+}
+h1{
+    color: var(--primary-color);
+    background-color: white;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 100px;
+    display: inline-block;
+    margin: auto;
+    font-size: 80px;
+}
+h2{
+    color: var(--primary-color);
+    background-color: white;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 55px;
+    display: inline-block;
+    padding: 4px 8px;
+}
+p{
+    color: var(--primary-color);
+    background-color: white;
+    padding: 6px 8px;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    border-radius: 20px;
+}
+#intro-pag{
+    text-align: center;
+    background-image: url(../Trabalho_Jogos/imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+.conteudo-padrao{
+    text-align: center;
+    background-color: var(--primary-color);
+    margin: 30px 0px;
+}
+#intro-text{
+    color: var(--primary-color);
+    background-color: white;
+    padding: 8px 16px;
+}
+#lista{
+    padding: 10px 10px;
+}
+.links{
+    padding: 4px 10px;
+    margin: 4px 5px;
+    border-radius: 100px;
+}
+.links:hover{
+    transition-timing-function: 1.2s;
+    color: var(--primary-color);
+    background-color: var(--amarelo);
+}
+footer{
+    background-color: white;
+    color: var(--primary-color);
+    display:block;
+    border-radius: 20px;
+}
+#space-back{
+    background-color: var(--verde);
+}
+#pac-back{
+    background-color: var(--amarelo);
+}
+#dk-back{
+    background-color: var(--marrom);
+}
+#mario-back{
+    background-color: var(--vermelho);
+}
+#sonic-back{
+    background-color: var(--azul-sonic);
+}
+.contatos{
+    color: white;
+}
+.contatos :hover{
+    transition-timing-function: 1.2s;
+    color: var(--primary-color);
+    background-color: white;
+}
